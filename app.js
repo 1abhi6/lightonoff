@@ -3,8 +3,8 @@ const on = document.querySelector('#on')
 const off = document.querySelector('#off')
 
 on.addEventListener('click', () => {
-    myBulb.src = '/images/on.png'
+    myBulb.src = 'images/on.png'
 })
 off.addEventListener('click',()=>{
-    myBulb.src='/images/off.png'
+    myBulb.src='images/off.png'
 })
